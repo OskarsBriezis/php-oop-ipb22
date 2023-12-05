@@ -1,6 +1,6 @@
 <?php
 
-include_once "Vehicle.php";
+include "Vehicle.php";
 
 class Car extends Vehicle
 {

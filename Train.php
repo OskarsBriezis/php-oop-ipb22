@@ -1,5 +1,5 @@
 <?php
-
+date_default_timezone_set('Europe/Riga');
 include_once "Vehicle.php";
 
 class Train extends Vehicle {

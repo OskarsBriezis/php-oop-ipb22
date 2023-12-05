@@ -1,5 +1,5 @@
 <?php
-
+date_default_timezone_set('Europe/Riga');
 abstract class Vehicle {
   public $brand;
   protected $mileage;
@@ -14,6 +14,5 @@ abstract class Vehicle {
   {
     $this->mileage = $this->mileage + $amount;
   }
-
   abstract static function makeNoice();
 };
